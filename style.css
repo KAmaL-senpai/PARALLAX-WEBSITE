@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+.section_one {
+  background-attachment: fixed;
+  background-image: url("Meghalaya.jpg");
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  font-size: 3rem;
+  padding: 2rem;
+  color: white;
+  background-color: rgb(59, 53, 53);
+  transition: font-size 0.3s ease, padding 0.3s ease;
+}
+.para h1 {
+  text-align: center;
+  padding-top: 1rem;
+  opacity: 0.5;
+}
+.para p {
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0 3rem 0;
+  text-align: justify;
+  opacity: 0.4;
+}
+.image2 {
+  background-image: url("Meghalaya1.jpg");
+  background-position: center;
+}
+.image3 {
+  background-image: url("Meghalaya2.jpg");
+  background-position: center;
+}
+.image4 {
+  background-image: url("Meghalaya3.jpg");
+  background-position: center;
+}
+@media (max-width: 1200px) {
+  .center {
+    font-size: 2.5rem; /* Adjust font size for medium screens */
+    padding: 1.5rem; /* Adjust padding for medium screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .center {
+    font-size: 2rem; /* Adjust font size for small screens */
+    padding: 1rem; /* Adjust padding for small screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .center {
+    font-size: 1.5rem; /* Adjust font size for extra-small screens */
+    padding: 0.5rem; /* Adjust padding for extra-small screens */
+  }
+}
