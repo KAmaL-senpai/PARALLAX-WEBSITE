@@ -36,7 +36,7 @@ This project uses the following libraries and frameworks:
 None
 Author
 
-[Your Name]
+[Kamal sing Bhumij]
 
 Version
 
